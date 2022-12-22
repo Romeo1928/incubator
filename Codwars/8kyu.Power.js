@@ -1,0 +1,15 @@
+// https://www.codewars.com/kata/562926c855ca9fdc4800005b/train/javascript
+
+// function numberToPower(number, power){
+//   console.info(Math.log2(1024));
+//   // Code here
+//   comsole.log(Math.pow(number,power))
+// }
+
+function numberToPower(number, power) {
+	let result = 1;
+	for (let i = 0; i < power; i++) {
+		result *= number;
+	}
+	return result;
+}
